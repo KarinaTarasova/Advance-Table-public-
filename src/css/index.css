@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 85px auto auto 50px;
+    grid-gap: 0;
+    grid-template-areas: "n n n n n n n n " "h h h h h h h h " ". . c c c c . ." "f f f f f f f f";
+}
+
+body {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+h2 {
+    text-align: center;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.top-menu {
+    display: grid;
+    grid-area: n;
+    background: #0f2557;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    height: 10%;
+}
+
+.navigation {
+    list-style-type: none;
+}
+
+.navigation a {
+    color: white;
+    line-height: 50px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+.left-item {
+    float: left;
+    text-transform: uppercase;
+}
+
+.right-item {
+    float: right;
+    padding-right: 3%;
+}
+
+.header {
+    grid-area: h;
+    background: #0f2557;
+    color: white;
+    padding-top: 2%;
+    justify-items: center;
+    text-align: center;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "logoAdvance" "shortText";
+}
+
+.logoAdvance {
+    height: 200px;
+    grid-area: logoAdvance;
+    /* background: violet; */
+}
+
+.shortText {
+    /* background: darkgray; */
+    grid-area: shortText;
+}
+
+.featuresContent {
+    grid-area: c;
+    /* background: mediumseagreen;  */
+    line-height: 1, 6;
+    text-align: justify;
+}
+
+.google-link {
+    display: block;
+    text-align: center;
+}
+
+.img-link {
+    height: 150px;
+}
+
+.footer {
+    grid-area: f;
+    /* background: violet; */
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-areas: "signature social_network contact";
+}
+
+.social_network {
+    grid-area: social_network;
+    padding-top: 10%;
+    /* background: darkcyan; */
+    text-align: center;
+
+}
+
+.icons {
+    width: 40px;
+}
+
+.signature {
+    grid-area: signature;
+    padding-top: 15%;
+    /* background: darkred; */
+}
+
+.contact {
+    grid-area: contact;
+    text-align: right;
+    /* background: khaki; */
+}
+
+.privacy-policy {
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    color: grey;
+}
+
+.e-mail {
+    color: blue;
+}

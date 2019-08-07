@@ -1,0 +1,202 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+html {
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.top-menu {
+    background: #0f2557;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+}
+
+.top-menu:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu-main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-item {
+    float: left;
+    text-transform: uppercase;
+}
+
+.right-item {
+    float: right;
+}
+
+.menu-main a {
+    text-decoration: none;
+    display: block;
+    line-height: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5%;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    letter-spacing: normal;
+    color: white;
+}
+
+.container {
+    padding-top: 7%;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.secure_drive {
+    margin: 0 15% 0 15%;
+    display: inline-block;
+    width: 70%;
+}
+
+.text_sd {
+    text-align: justify;
+    margin: 10% 5% 0 10%;
+    padding-left: 2%;
+}
+
+.img_sd {
+    display: block;
+    float: left;
+    height: 500px;
+    width: auto;
+    padding: 2%;
+}
+
+.link_sd {
+    display: block;
+    text-align: right;
+    margin: 0 5% 0% 10%;
+    padding-left: 2%;
+}
+
+.button_sd {
+    height: 120px;
+}
+
+.save_contact {
+    margin: 0 15% 0 15%;
+    display: inline-block;
+    width: 70%;
+}
+
+.text_sc {
+    text-align: justify;
+    margin: 5% 5% 0 10%;
+    padding-left: 2%;
+}
+
+.img_sc {
+    display: block;
+    float: left;
+    height: 500px;
+    width: auto;
+    padding: 2%;
+}
+
+.link_sc {
+    display: block;
+    text-align: right;
+    margin: 0 5% 0 10%;
+    padding-left: 2%;
+}
+
+.button_sc {
+    height: 120px;
+}
+
+.ration {
+    margin: 0 15% 0 15%;
+    display: inline-block;
+    width: 70%;
+}
+
+.text_rat {
+    text-align: justify;
+    margin: 13% 5% 0 10%;
+    padding-left: 2%;
+}
+
+.img_rat {
+    display: block;
+    float: left;
+    height: 500px;
+    width: auto;
+    padding: 2%;
+}
+
+.link_rat {
+    display: block;
+    text-align: right;
+    margin: 0 5% 0 10%;
+    padding-left: 2%;
+}
+
+.button_rat {
+    height: 120px;
+}
+
+table {
+    width: 100%;
+}
+
+.signature {
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.social_network {
+    text-align: center;
+}
+
+.icons {
+    width: 50px;
+}
+
+.contact {
+    text-align: right;
+}
+
+.privacy-policy {
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    color: grey;
+}
+
+.e-mail {
+    color: blue;
+}

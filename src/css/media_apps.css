@@ -1,0 +1,148 @@
+@media screen and (max-width: 1400px) {
+    .container {
+        padding-top: 10%;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .menu-main a {
+        line-height: 60px;
+        font-size: 17px;
+    }
+    .container {
+        padding-top: 10%;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+    .secure_drive, .save_contact, .ration {
+        margin: 0;
+        width: 100%;
+    }
+    .text_sd, .text_sc, .text_rat {
+        text-align: justify;
+    }
+    .img_sd, .img_sc, .img_rat {
+        height: 400px;
+        width: auto;
+    }
+    .link_sd, .link_sc, .link_rat {
+        margin: 0 2% 0 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        padding-top: 14%;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .link_sd, .link_sc, .link_rat {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        padding-top: 15%;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .img_sd, .img_rat, .img_sc {
+        height: 350px;
+        width: auto;
+    }
+    .button_sc, .button_sd, .button_rat {
+        height: 100px;
+        text-align: center;
+    }
+    .img_patreon, .img_telegram, .img_vk, .img_tg {
+        width: 40px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        padding-top: 20%;
+        font-size: 16px;
+        margin: 0 3%;
+    }
+    .secure_drive, .save_contact, .ration {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10%;
+    }
+    .img_sd, .img_sc, .img_rat {
+        display: inline-block;
+        height: 350px;
+        width: auto;
+        margin: 0 30%;
+    }
+    .text_sd, .text_sc, .text_rat {
+        display: inline-block;
+        text-align: justify;
+        margin: 0;
+    }
+    .link_sd, .link_sc, .link_rat {
+        display: block;
+        text-align: justify;
+        width: 100%;
+        text-align: center;
+    }
+    .button_sd, .button_sc, .button_rat {
+        height: 80px;
+    }
+    .menu-main a {
+        width: 100%;
+        line-height: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .button_sd, .button_sc, .button_rat {
+        height: 60px;
+    }
+    .img_sd, .img_sc, .img_rat {
+        height: 290px;
+    }
+    .container {
+        padding-top: 20%;
+        font-size: 16px;
+        margin: 0 3%;
+    }
+    .img_sd, .img_sc, .img_rat {
+        margin: 0 35%;
+    }
+}
+
+@media (max-width: 414px) {
+    .img_sd, .img_sc, .img_rat {
+        margin: 0 33%;
+    }
+}
+
+    @media (max-width: 375px) {
+        .img_sd, .img_sc, .img_rat {
+            margin: 0 30%;
+        }
+    }
+    @media (max-width: 360px) {
+        .img_sd, .img_sc, .img_rat {
+            margin: 0 27%;
+        }
+    }
+
+     @media (max-width: 320px) {
+        .container {
+            padding-top: 30%;
+        }
+        .img_sd, .img_sc, .img_rat {
+            margin: 0 25%;
+        }
+    } 

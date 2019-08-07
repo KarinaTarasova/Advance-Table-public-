@@ -1,0 +1,124 @@
+html {
+	box-sizing: border-box;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+a:-webkit-any-link {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.top-menu {
+	background: #0f2557;
+	box-shadow: 0 2px 4px rgb(0, 0, 0);
+	padding: 5px;
+	position: fixed;
+	width: 100%;
+}
+
+.top-menu:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.menu-main {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-main:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.left-item {
+	float: left;
+	text-transform: uppercase;
+}
+
+.right-item {
+	float: right;
+}
+
+.menu-main a {
+	text-decoration: none;
+	display: block;
+	line-height: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5%;
+	font-size: 20px;
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	letter-spacing: normal;
+	color: white;
+}
+
+.main {
+	
+	margin: 10% 20% 0;
+	text-align: justify;
+}
+
+h1 {
+	text-align: center;
+}
+
+@media (max-width: 1024px) {
+	.main {
+		margin-top: 15%;
+	}
+}
+
+@media (max-width: 700px) {
+	.main {
+		margin: 20% 5% 0;
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 550px) {
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	.menu-main a {
+		line-height: 40px;
+		font-size: 16px;
+	}
+}
+
+
+@media (max-width: 350px) {
+	h1 {
+		font-size: 22px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	.menu-main a {
+		line-height: 40px;
+		font-size: 14px;
+	}
+	.main {
+		margin-top: 25%;
+	}
+}
